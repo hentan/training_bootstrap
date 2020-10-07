@@ -1,0 +1,28 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 13px 70px;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-weight: 300;
+    font-style: 15px;
+
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
